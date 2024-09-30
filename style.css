@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 25%;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+nav a.current {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #404040;
+}
