@@ -26,7 +26,7 @@ nav a:hover {
     color: #404040;
 }
 
-/*Something*/
+/*advertisement*/
 .container-with-background {
     color: #fff;
     background-color: #131315;
@@ -95,4 +95,32 @@ nav a:hover {
     object-fit: cover;
     width: 100%;
 }
-
+/*About me*/
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+.about-me-title {
+    color: #BCBCBC;
+    font-size: 18px;
+    letter-spacing: 7.2px;
+}
+.about-me-text {
+    width: 50%;
+}
+.about-me-text h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.about-me-decorations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-me-decorations img{
+    width: 230px;
+    height: 230px;
+}
