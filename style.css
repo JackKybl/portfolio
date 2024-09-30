@@ -3,6 +3,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*navbar*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -24,3 +25,74 @@ nav a:hover {
     text-decoration: underline;
     color: #404040;
 }
+
+/*Something*/
+.container-with-background {
+    color: #fff;
+    background-color: #131315;
+    border-radius: 40px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+
+.visual_designer {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 32px;
+    width: 60%;
+    text-align: center;
+}
+
+.visual_designer h1 {
+    font-size: 72px;
+}
+
+.visual_designer p {
+    color: #c4c4c4;
+}
+
+.visual_designer .contact {
+    width: max-content;
+    padding: 0 24px;
+    text-decoration: none;
+    background: linear-gradient(rgb(255, 146, 104) 0%, rgb(249, 92, 31) 100%);
+    border-radius: 50px;
+    align-self: center;
+}
+
+.visual_designer .contact p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.branding-project-container {
+    display: flex;
+    gap: 24px;
+    max-width: 100%;
+}
+
+.branding-project {
+    position: relative;
+}
+
+.branding-project h3 {
+    position: absolute;
+    font-size: 24px;
+    left: 24px;
+    bottom: 0;
+}
+
+.branding-project img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+}
+
